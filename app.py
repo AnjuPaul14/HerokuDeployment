@@ -29,4 +29,4 @@ def predict():
     return render_template('index.html', prediction_text='The category of the flower is  {}'.format(o1))
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+    app.run(port=5000, debug=False)
