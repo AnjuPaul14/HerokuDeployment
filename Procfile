@@ -1,0 +1,1 @@
+web: gunicorn heroku-flowertype-prediction.wsgi
